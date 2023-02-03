@@ -25,4 +25,12 @@ Functional Requirements:
 
 Non-Functional Requirements:
 
-1) 
+1) Only the Institution LAN should have access to the Library Information System. Users from outside the institution should not be allowed accessed.
+
+2) For security reasons, all confidential information should be kept in encrypted text form.
+
+3) Server should be able to handle the large number of users for the better performance and the user's satisfaction.
+
+4) The interface should be easy to use for better understanding.
+
+
