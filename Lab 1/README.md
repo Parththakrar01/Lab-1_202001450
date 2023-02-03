@@ -20,3 +20,9 @@ Functional Requirements:
 5) Extend the deadline: The member who borrowed the book should be able to extend the due date for its return if no other user wants that particular book. By extending the deadline, the user would avoid the lengthy procedure of returning the book and then borrowing it again.
 
 6) Notify deadline: The user should automatically receive a reminder to return the book before the 24-hour deadline so they may do it in time to avoid being charged.
+
+7) Notify arrivals: Regular users should be notified when new books are added so they may borrow them when they arrives.
+
+Non-Functional Requirements:
+
+1) 
