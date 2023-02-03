@@ -43,9 +43,9 @@ Features:
 
 1) User should be able to stop the alert.
 
-2) alert should not be stopped untill user stops it.
+2) Alert should not be stopped untill user stops it.
 
-4) User can set the alert of his/her choice such as flashlight or vibration.
+3) User can set the alert of his/her choice such as flashlight or vibration.
 
 Non-functional aspects:
 
