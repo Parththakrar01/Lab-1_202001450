@@ -33,4 +33,25 @@ Non-Functional Requirements:
 
 4) The interface should be easy to use for better understanding.
 
+Q.2. Identify scope, features and non-functional aspects of the following problem.
+
+Scope:
+
+Key sound events like automobile horns, bell rings, babies crying, fire alarms, etc. should be recognised by it. It should be able to respond to this by simulating it with flashing lights and vibrations in a live setting.
+
+Features:
+
+1) User should be able to stop the alert.
+
+2) alert should not be stopped untill user stops it.
+
+4) User can set the alert of his/her choice such as flashlight or vibration.
+
+Non-functional aspects:
+
+1) App should be able to identify the sound accurately and response accordingly.
+
+2) It should generate the quick responce since some alert might be critical and require immediate response.
+
+3) It should be able to handle atleast 5% of the total world population since the number of people suffering from the hearing problem is approximately 5%.
 
