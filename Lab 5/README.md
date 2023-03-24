@@ -86,6 +86,18 @@ AlarmClock.py:46: error: "Tuple[str, str, str, str, str, str, str, str, str, str
 
 Found 5 errors in 1 file (checked 1 source file)
 
+## Unbderstanding of the above errors
+
+The error in line 5 of the file AlarmClock.py indicates that there is an incompatible import of "Event" because the imported name has type "Type[threading.Event]" while the local name has type "Type[tkinter.Event[Any]]".
+
+The error in line 38 of the file AlarmClock.py indicates that there are incompatible types in assignment because the expression has type "OptionMenu" while the variable has type "Tuple[str, str, str, ..., str]".
+
+The error in line 39 of the file AlarmClock.py indicates that "Tuple[str, str, str, ..., str]" has no attribute "pack".
+
+The error in line 45 of the file AlarmClock.py indicates that there are incompatible types in assignment because the expression has type "OptionMenu" while the variable has type "Tuple[str, str, str, ..., str]".
+
+The error in line 46 of the file AlarmClock.py indicates that "Tuple[str, str, str, ..., str]" has no attribute "pack".
+
 ## DigitalClock.py errorneous code
 
 ```python
@@ -146,5 +158,4 @@ DigitalClock.py:2:0: W0614: Unused import(s) enum, sys, types, TclError, re, wan
 
 DigitalClock.py:3:0: W0614: Unused import(s) tkinter, tclobjs_to_py, setup_master, Style, Combobox, Labelframe, Notebook, Panedwindow, Progressbar, Separator, Sizegrip, Treeview and LabeledScale from wildcard import of tkinter.ttk (unused-wildcard-import)
 
------------------------------------
-Your code has been rated at 1.54/10
+
