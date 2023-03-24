@@ -158,4 +158,24 @@ DigitalClock.py:2:0: W0614: Unused import(s) enum, sys, types, TclError, re, wan
 
 DigitalClock.py:3:0: W0614: Unused import(s) tkinter, tclobjs_to_py, setup_master, Style, Combobox, Labelframe, Notebook, Panedwindow, Progressbar, Separator, Sizegrip, Treeview and LabeledScale from wildcard import of tkinter.ttk (unused-wildcard-import)
 
+## Understanding of the above errors
 
+DigitalClock.py:16:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation): This warning is raised when the indentation in the code does not match the expected level. In this case, the code has used only one space instead of the expected 4 spaces.
+
+DigitalClock.py:17:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation): This warning is the same as the previous one. The code has used only one space instead of the expected 4 spaces.
+
+DigitalClock.py:18:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation): This warning is also the same as the previous two. The code has used only one space instead of the expected 4 spaces.
+
+DigitalClock.py:31:0: C0304: Final newline missing (missing-final-newline): This warning indicates that the file does not end with a newline character.
+
+DigitalClock.py:1:0: C0114: Missing module docstring (missing-module-docstring): This warning indicates that the module does not have a docstring.
+
+DigitalClock.py:1:0: C0103: Module name "DigitalClock" doesn't conform to snake_case naming style (invalid-name): This warning indicates that the module name does not follow the snake_case naming convention.
+
+DigitalClock.py:2:0: W0401: Wildcard import tkinter (wildcard-import): This warning indicates that the code has imported the entire tkinter module using a wildcard (*) import, which is not recommended as it can cause naming conflicts.
+
+DigitalClock.py:3:0: W0401: Wildcard import tkinter.ttk (wildcard-import): This warning indicates that the code has imported the entire ttk submodule of tkinter using a wildcard (*) import, which is not recommended as it can cause naming conflicts.
+
+DigitalClock.py:15:0: C0116: Missing function or method docstring (missing-function-docstring): This warning indicates that the function or method does not have a docstring.
+
+DigitalClock.py:2:0: W0614: Unused import(s) enum, sys, types, TclError, re, wantobjects, TkVersion, TclVersion, READABLE, WRITABLE, EXCEPTION, EventType, Event, NoDefaultRoot, Variable, StringVar, IntVar, DoubleVar, BooleanVar, getint, getdouble, getboolean, Misc, CallWrapper, XView, YView, Wm, Tcl, Pack, Place, Grid, BaseWidget, Widget, Toplevel, Button, Canvas, Checkbutton, Entry, Frame, Listbox, Menu, Menubutton, Message, Radiobutton, Scale, Scrollbar, Text, OptionMenu, Image, PhotoImage, BitmapImage, image_names, image_types, Spinbox, LabelFrame, PanedWindow, NO, FALSE, OFF, YES, TRUE, ON, N, S, W, E, NW, SW, NE, SE, NS, EW, NSEW, CENTER, NONE, X, Y, BOTH, LEFT, TOP, RIGHT, BOTTOM, RAISED, SUNKEN, FLAT, RIDGE, GROOVE, SOLID, HORIZONTAL, VERTICAL, NUMERIC, CHAR, WORD, BASELINE, INSIDE, OUTSIDE, SEL, SEL_FIRST, SEL_LAST, END, INSERT, CURRENT, ANCHOR, ALL, NORMAL, DISABLED, ACTIVE, HIDDEN, CASCADE, CHECKBUTTON, COMMAND, RADIOBUTTON, SEPARATOR, SINGLE, BROWSE, MULTIPLE, EXTENDED, DOT
