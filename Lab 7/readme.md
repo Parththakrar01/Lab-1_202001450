@@ -9,6 +9,19 @@ Student ID: 202001450
 
 ## Section A
 
+### Equivalence class test cases
+
+#### Valid input dates:
+
+(1, 1, 1900) through (31, 12, 2015)
+
+#### Invalid input dates:
+
+(0, 1, 1900) through (31, 0, 1900)
+(32, 1, 1900) through (31, 13, 1900)
+(1, 1, 1899) through (31, 12, 1899)
+(1, 1, 2016) through (31, 12, 9999)
+
 ### Equivalence Partitioning
 
 | Input Date | Expected Outcome |
