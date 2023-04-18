@@ -14,4 +14,7 @@ Student ID: 202001450
 | Input Date | Expected Outcome |
 | ---- | --- |
 | Valid input: day=1, month=1, year=1900 | Invalid Date |
-
+| Valid input: day=15, month=6, year=2000 | Previous Date |
+| Invalid input: day=31, month=4, year=2010 | Invalid Date |
+| Invalid input: day=29, month=2, year=2003 | Invalid Date |
+| Invalid input: day=0, month=6, year=2000 | Invalid Date |
